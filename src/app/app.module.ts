@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SlideshowComponent } from './slideshow/slideshow.component';
+import { CrudComponent } from './crud/crud.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SlideshowComponent
+    SlideshowComponent,
+    CrudComponent
   ],
   imports: [
     BrowserModule,
